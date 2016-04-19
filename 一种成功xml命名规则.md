@@ -7,7 +7,7 @@
 
 ![xml](http://jeroenmols.com/img/blog/resourcenaming/resourcenaming.png)
 
-你还记得你钻进去strings.xml里面查找你正在使用的字符，或手动浏览所有drawables找到你要的那个的最后时间吗？
+你还记得最后那次你钻进去strings.xml里面查找你正在使用的字符，或手动浏览所有drawables找到你要的那个的时间吗？
 
 当我们开始一个新项目时，我们总是花费很多时间在架构，CI(持续集成),build flavors...等等，但是对于资源命名你准备好了策略么？
 
