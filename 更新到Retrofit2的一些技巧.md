@@ -1,4 +1,5 @@
 >原文链接：[Tips on updating to Retrofit 2](http://www.fasteque.com/tips-on-updating-to-retrofit-2/)
+
 >ps：其实我老早就更新到Retrofit2了  但是不同的beta版目前改变还是挺大的，如果你在用的话 ，要时刻跟进并查看它的changelog.该文章还是比较倾向于1.9升级2.0  但是就像前面说的 beta2到beta4改变也是非常大的 所以同样可以参考用于备忘
 
 Retrofit2.0已经公开发布几个月了，但是现在依然是beta版，一些开发者已经开始从之前的版本进行升级，虽然官方已经提供了文档，文章或博客让你了解最新版的相关信息，但是在StackOverflow还是可以看到一些提问关于在升级版本的过程中怎么处理常见功能像logging打印日志，添加request parameter或者使用JSON对象等，所以在这篇文章中，我会告诉你关于这些问题的一些技巧。
