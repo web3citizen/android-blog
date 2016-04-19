@@ -3,55 +3,54 @@
 #UI
 ####*CoordinatorLayout*
 
-[自定义CoordinatorLayout的Behavior(2):实现淘宝和QQ ToolBar透明渐变效果]()
+[自定义CoordinatorLayout的Behavior(2):实现淘宝和QQ ToolBar透明渐变效果](https://github.com/thinkSky1206/android-blog/blob/master/%E5%AE%9E%E7%8E%B0%E6%B7%98%E5%AE%9D%E5%92%8CQQ%20ToolBar%E9%80%8F%E6%98%8E%E6%B8%90%E5%8F%98%E6%95%88%E6%9E%9C.md)
 
-[自定义CoordinatorLayout的Behavior实现知乎和简书快速返回效果]()
+[自定义CoordinatorLayout的Behavior实现知乎和简书快速返回效果](https://github.com/thinkSky1206/android-blog/blob/master/%E5%AE%9E%E7%8E%B0%E7%9F%A5%E4%B9%8E%E5%92%8C%E7%AE%80%E4%B9%A6%E5%BF%AB%E9%80%9F%E8%BF%94%E5%9B%9E%E6%95%88%E6%9E%9C.md)
 
 ####*RecyclerView*
 
 ###*其他*
 
-[教你实现别人家的动画3(淘宝,简书动画效果)]()
+[教你实现别人家的动画3(淘宝,简书动画效果)](https://github.com/thinkSky1206/android-blog/blob/master/%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E5%88%AB%E4%BA%BA%E5%AE%B6%E7%9A%84%E5%8A%A8%E7%94%BB3(%E6%B7%98%E5%AE%9D%2C%E7%AE%80%E4%B9%A6%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C).md)
 
 #重构，技巧
 >梦里寻它千百度，蓦然回首，它在灯火阑珊处，总有那么一些技巧让你相见恨晚！
 
-[Android项目结构的另外一种方式]()
+[Android项目结构的另外一种方式](https://github.com/thinkSky1206/android-blog/blob/master/Android%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%8F%A6%E5%A4%96%E4%B8%80%E7%A7%8D%E6%96%B9%E5%BC%8F.md)
 
-[用xml drawable替代png]()
+[用xml drawable替代png](https://github.com/thinkSky1206/android-blog/blob/master/%E7%94%A8xml%20drawable%E6%9B%BF%E4%BB%A3png.md)
 
-[写出高效清晰Layout布局文件的一些技巧]()
+[写出高效清晰Layout布局文件的一些技巧](https://github.com/thinkSky1206/android-blog/blob/master/%E5%86%99%E5%87%BA%E9%AB%98%E6%95%88%E6%B8%85%E6%99%B0Layout%E5%B8%83%E5%B1%80%E6%96%87%E4%BB%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7.md)
 
-[SharedPreferences的最佳实践]()
+[SharedPreferences的最佳实践](https://github.com/thinkSky1206/android-blog/blob/master/SharedPreferences%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
 
-[MVP+Dagger2+Retrofit实现更清晰的架构]()
+[MVP+Dagger2+Retrofit实现更清晰的架构](https://github.com/thinkSky1206/android-blog/blob/master/MVP%2BDagger2%2BRetrofit%E5%AE%9E%E7%8E%B0%E6%9B%B4%E6%B8%85%E6%99%B0%E7%9A%84%E6%9E%B6%E6%9E%84.md)
 
 #三方库
 
-[更新到Retrofit2的一些技巧]()
+[更新到Retrofit2的一些技巧](https://github.com/thinkSky1206/android-blog/blob/master/%E6%9B%B4%E6%96%B0%E5%88%B0Retrofit2%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7.md)
 
-[每个android开发者都应该知道的Top 5三方库(2015版)]()
+[每个android开发者都应该知道的Top 5三方库(2015版)](https://github.com/thinkSky1206/android-blog/blob/master/%E6%AF%8F%E4%B8%AAandroid%E5%BC%80%E5%8F%91%E8%80%85%E9%83%BD%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84Top%205%E4%B8%89%E6%96%B9%E5%BA%93(2015%E7%89%88).md)
 
-[每个Android开发者都应该知道的开源库(2014版)]()
+[每个Android开发者都应该知道的开源库(2014版)](https://github.com/thinkSky1206/android-blog/blob/master/%E6%AF%8F%E4%B8%AAAndroid%E5%BC%80%E5%8F%91%E8%80%85%E9%83%BD%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84%E5%BC%80%E6%BA%90%E5%BA%93(2014%E7%89%88).md)
 
 
 
 #Gradle
 
-[Gradle依赖]()
+[Gradle依赖](https://github.com/thinkSky1206/android-blog/blob/master/Gradle%E4%BE%9D%E8%B5%96.md)
 
-[Gradle的高级技巧]()
+[Gradle的高级技巧](https://github.com/thinkSky1206/android-blog/blob/master/Gradle%E7%9A%84%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7.md)
 
-[使用Gradle构建多个不同applicationId包]()
+[使用Gradle构建多个不同applicationId包](https://github.com/thinkSky1206/android-blog/blob/master/%E4%BD%BF%E7%94%A8Gradle%E6%9E%84%E5%BB%BA%E5%A4%9A%E4%B8%AA%E4%B8%8D%E5%90%8CapplicationId%E5%8C%85.md)
 
-[使用Gradle管理Debug/Release版本的Key]()
+[使用Gradle管理Debug/Release版本的Key](https://github.com/thinkSky1206/android-blog/blob/master/%E4%BD%BF%E7%94%A8Gradle%E7%AE%A1%E7%90%86Debug%E5%92%8CRelease%E7%89%88%E6%9C%AC%E7%9A%84Key.md)
 
 #Android Studio
 
-[快速清除数据]()
+[快速清除数据](https://github.com/thinkSky1206/android-blog/blob/master/%E5%BF%AB%E9%80%9F%E6%B8%85%E9%99%A4app%E6%95%B0%E6%8D%AE.md)
 
 
-[]()
 #工具
 
 
