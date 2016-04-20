@@ -51,7 +51,7 @@
 
 (例如:24dp,small)
 
-![]()
+![cheat-sheet](https://github.com/thinkSky1206/android-blog/blob/master/images/xml_name.png)
 
 下载和打印这个[速查表](http://jeroenmols.com/img/blog/resourcenaming/resourcenaming_cheatsheet.pdf)方便参考
 
