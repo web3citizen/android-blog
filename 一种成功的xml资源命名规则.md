@@ -108,6 +108,7 @@ layout	 | 用于include标签使用的布局
 - fragment_articledetail:ArticleDetailFragment的view
 - view_menu:在自定义MenuView类中被inflated的布局
 - layout_actionbar_backbutton:一个包含返回按钮的actionbar工具栏布局(过于简单没有必要封装成一个自定义view,直接include)
+
 #strings
 Strings的what部分不重要，没有什么用处的（译者注：因为string.xml已经固定了它的what，drawables是一样的道理）,所以我们要么用**where**来指明这个字符在只在某个页面被用到：
 ![strings_where](http://jeroenmols.com/img/blog/resourcenaming/strings.png)
