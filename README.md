@@ -18,6 +18,8 @@
 #重构，技巧
 >梦里寻它千百度，蓦然回首，它在灯火阑珊处，总有那么一些技巧让你相见恨晚！
 
+[一种成功的xml资源命名规范](https://github.com/thinkSky1206/android-blog/blob/master/%E4%B8%80%E7%A7%8D%E6%88%90%E5%8A%9F%E7%9A%84xml%E8%B5%84%E6%BA%90%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md)
+
 [Android项目结构的另外一种方式](https://github.com/thinkSky1206/android-blog/blob/master/Android%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%8F%A6%E5%A4%96%E4%B8%80%E7%A7%8D%E6%96%B9%E5%BC%8F.md)
 
 [用xml drawable替代png](https://github.com/thinkSky1206/android-blog/blob/master/%E7%94%A8xml%20drawable%E6%9B%BF%E4%BB%A3png.md)
