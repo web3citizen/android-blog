@@ -1,6 +1,6 @@
 >原文：[A successful XML naming convention](http://jeroenmols.com/blog/2016/03/07/resourcenaming/)
 
->译文的GitHub地址:[一种成功的xml资源命名规范](https://github.com/thinkSky1206/android-blog/blob/master/%E4%B8%80%E7%A7%8D%E6%88%90%E5%8A%9F%E7%9A%84xml%E8%B5%84%E6%BA%90%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99.md)
+>译文的GitHub地址:[一种成功的xml资源命名规范](https://github.com/thinkSky1206/android-blog/blob/master/%E4%B8%80%E7%A7%8D%E6%88%90%E5%8A%9F%E7%9A%84xml%E8%B5%84%E6%BA%90%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md)
 
 >译者注：命名是一个项目的小细节，也是一个项目的基石。虽然我们懂得了各种命名规范，但是我必须承认最后我每次都失败了，实践到最后就会发现做好真的很难，除了疯涨的资源文件，还涉及到不同的团队成员，就算同一个控件，有可能每个人都能给上不同的名字。这篇文章给了一个不错的模式，可以结合自己的情况进行改造，结合之前那篇项目结构的文章会有不错的效果。命名规范重要，但是每个人做到遵循更为重要。
 
