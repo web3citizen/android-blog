@@ -2,19 +2,19 @@
 
 >Github:
 
->译者注：
+>译者注：命名是一个项目的小细节，也是一个项目的基石。虽然我们懂得了各种命名规范，但是我必须承认最后我每次都失败了，实践到最后就会发现做好真的很难，除了疯涨的资源文件，还涉及到不同的团队成员，就算同一个控件，有可能每个人都能给上不同的名字。这篇文章给了一个不错的模式，可以结合自己的情况进行改造，结合之前那篇项目结构的文章会有不错的效果。命名规范重要，但是每个人做到遵循更为重要。
 
 
 ![xml](http://jeroenmols.com/img/blog/resourcenaming/resourcenaming.png)
 
 你还记得最后一次你钻进去strings.xml里面查找你正在使用的字符，或手动浏览所有drawables找到你要的那个是什么时候吗？
 
-当我们开始一个新项目时，我们总是花费很多时间在架构，CI(持续集成),build flavors...等等，但是对于资源命名你准备好了策略么？
+当我们开始一个新项目时，我们总是花费很多时间在架构，CI(持续集成),build flavors...上面，但是对于资源命名你准备好了策略么？
 
 你应该准备！因为缺乏xml命名空间，让管理android资源非常麻烦，特别是在大项目，容易失控。
 
 
-所以下面介绍一种简单的模式来解决你的痛苦。
+所以让我们引入一个简单的模式来解决你的痛苦。
 
 - 容易查找任何资源(借助ide的自动完成)
 - 逻辑，可预测的名字
@@ -147,6 +147,7 @@ drawables的what部分也是没用的，所以我们也是要么用where指明�
 - tablayout_main：MainActivity里面的TabLayout控件
 - imageview_menu_profile:自定义MenuView中的用户ImageView
 - textview_articledetail_title:ArticleDetailFragment中的标题TextView
+
 >译者注：这里的what可以自己换一下，改成控件类名的首字母 例如：textview->tv会简洁一点，不然有时候会真的很长。
 
 #dimensions
