@@ -1,6 +1,6 @@
 >原文：[Add a copyright notice to your code](https://antoniocappiello.com/2015/12/08/add-a-copyright-notice-to-your-code/)
 
->译文的GitHub地址：
+>译文的GitHub地址：[给你的代码添加版权声明](https://github.com/thinkSky1206/android-blog/blob/master/%E5%9C%A8AndroidStudio%E4%B8%AD%E7%BB%99%E4%BD%A0%E7%9A%84%E4%BB%A3%E7%A0%81%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E.md)
 
 >译者注：一个规范的项目无论是开源的还是公司内部，版权声明和协议声明都是不可少的，在Android Studio中非常简单，没加上的快去给你的项目加上吧。
 
