@@ -54,6 +54,7 @@
 
 [快速清除数据](https://github.com/thinkSky1206/android-blog/blob/master/%E5%BF%AB%E9%80%9F%E6%B8%85%E9%99%A4app%E6%95%B0%E6%8D%AE.md)
 
+[给你的代码添加版权声明](https://github.com/thinkSky1206/android-blog/blob/master/%E5%9C%A8AndroidStudio%E4%B8%AD%E7%BB%99%E4%BD%A0%E7%9A%84%E4%BB%A3%E7%A0%81%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E.md)
 
 #工具
 
