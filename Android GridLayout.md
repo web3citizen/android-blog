@@ -1,8 +1,12 @@
 >原文：[Android Grid Layout](https://medium.com/google-developer-experts/android-grid-layout-1faf0df8d6f2#.ldtru2yec)
 
+>译文的GitHub地址：[]()
+
+>译者注：说实话 我确实没用过GridLayout！好好认识一下吧。
+
 ###*android开发者每天都在问自己一个问题-我到底应该用哪个layout*
 
-GridLayout发布已经有一段时间了-新的布局组件：**Space**和**GridLayout**
+GridLayout发布已经有一段时间了--新的布局组件：**Space**和**GridLayout**
 
 然而GridLayout在当前开发中的情况如下：
 
@@ -10,10 +14,10 @@ GridLayout发布已经有一段时间了-新的布局组件：**Space**和**Grid
 - 一些开发者知道GridLayout但是基于某些原因不去使用
 - 只有少部分开发者花时间了解和积极使用
 
-这是我为什么要写这篇文章的原因，因为我认为这个布局不应该被不公平遗忘
+这是我为什么要写这篇文章的原因，因为我觉得这个布局被不公平遗忘了
 
 #为什么我们需要Grid Layout
-GridLayout可以让你用一个简单的根view创建一个表格系统的布局
+GridLayout可以让你用一个简单的根view创建一个表格系统布局
 >我可以用LinearLayout嵌套来实现
 
 是可以做到，但是你会有性能问题当布局嵌套太深
@@ -21,55 +25,56 @@ GridLayout可以让你用一个简单的根view创建一个表格系统的布局
 >我可以用RelativeLayout来创建
 
 也行，但是RelativeLayout有一些限制，例如：
-- 没法基于轴线对齐
-- 组件会超出屏幕当他们需要的空间因为你不能使用weight等等
+
+- 没法同时控制2个轴线对齐
+- 当组件需要的空间超出你预期的时候会跑出屏幕或发生重叠因为你不能使用weight等等
 
 换一句话说就是RelativeLayout不够灵活和响应性不足。
 
 #例子
 
-让我们实现一个简单的布局包含一个大图片，2个小图标和跟在图标的文本
+让我们实现一个简单的布局包含一个大图片，2个小图标和跟在图标后面的文本
 
-![Preview]()
+![Preview](https://cdn-images-1.medium.com/max/800/1*hm-KJs7FJG5qtHglpvWYSQ.png)
 
 ###*RelativeLayout*
 
 用RelatieveLayout实现起来非常简单，通过关键属性*layout_below*,*layout_toRightOf*和*layout_alignTop*
 
-![Code]()
+![Code](https://cdn-images-1.medium.com/max/800/1*orH45OZ2t_qeoEfSHzaZtA.png)
 
-一眼看上去好像很完美，直到你用不同字体size进行布局测试
+一眼看上去好像很完美，等你用不同字体size进行布局测试就呵呵了
 
-*Issue 1*
+*问题 1*没法同时控制基于2个轴对齐
 
 单行文本应该相对于图标垂直居中，不幸的是RelativeLayout没有提供这个可能性
 
-![Preview]()
+![Preview](https://cdn-images-1.medium.com/max/800/1*1pxJm-XLyhFHoIzZf65CdQ.png)
 
-*Issue 2* 组件重叠
+*问题 2* 组件重叠
 
 多行文本会引起重叠，因为text用了layout_alignTop对图标进行对齐
 
-![Preview]()
+![Preview](https://cdn-images-1.medium.com/max/800/1*uemGANLvCQv-tdfyadqnqA.png)
 
 ###*GridLayout*
 
 如你看到的下面图片一样，GridLayout提供更好的表现结果：
 
 - 文本垂直居中于图标
-- 多行文本不会移动组件
+- 多行文本不会向下移动组件
 
-![Preview]()
+![Preview](https://cdn-images-1.medium.com/max/800/1*Dz8SX4ju0NEW4OL6sHeI5g.png)
 
 那么怎么实现这个效果呢？首先定义GridLayout为根布局。然后计算你要多少列并通过android:columnCount属性定义，在我们的例子中我们有2列。
 
 当你定义GridLayout里面的views时因为是一个接一个被放置，所以没必要明确定义view root和column
 
-如果你想撑开view占用2行或2列，你可以用*layout——columnSpan*/*layout_rowSpan*属性
+如果你想撑开view占用2行或2列，你可以用*layout_columnSpan*/*layout_rowSpan*属性
 
-还有一定要记住-如果你想你的view使用所有可用的空间，不要设置设置width为match_parent，设置成0dp同时设置属性layout_gravity="fill"
+还有一定要记住-如果你想你的view使用所有可用的空间，不要设置width为match_parent，应该设置成0dp同时设置属性layout_gravity="fill"
 
-![Code]()
+![Code](https://cdn-images-1.medium.com/max/800/1*lSg-UAbQTJkG4pVMM34YaA.png)
 
 
 #总结
