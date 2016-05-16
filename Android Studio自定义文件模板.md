@@ -1,6 +1,6 @@
 >原文链接：[How to make your own File Templates in Android Studio](http://riggaroo.co.za/custom-file-templates-android-studio/)
 
->译文的GitHub地址：[Android Studio自定义文件模板](https://github.com/thinkSky1206/android-blog/edit/master/Android%20Studio%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E6%A8%A1%E6%9D%BF.md)
+>译文的GitHub地址：[Android Studio自定义文件模板](https://github.com/thinkSky1206/android-blog/blob/master/Android%20Studio%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E6%A8%A1%E6%9D%BF.md)
 
 >译者注：还是挺实用的
 
