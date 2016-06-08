@@ -14,6 +14,8 @@
 
 记住，你必须要在ApplicationComponent显示声明Context 因为这是消费父组件对象的唯一方法。它所有modules里面的对象不能用于child module
 
+例子：
+
 	@Singleton
 	@Component(modules = ApplicationModule.class)
 	public interface ApplicationComponent {
@@ -46,3 +48,27 @@
 	getApplicationComponent().plus(new LoginModule(this));
 
 不要忘了把你的子组件@Component替换成@Subcomponent。
+
+例子：
+
+	@Singleton
+	@Component(modules = AppModule.class)
+	public interface AppComponent {
+	
+		//activy组件继承父组件
+	    ActivityComponent plus(ActivityModule module);
+	
+	}
+
+	@ActivityScope
+	//声明Subcomponent
+	@Subcomponent(modules = ActivityModule.class)
+	public interface ActivityComponent {
+	
+	    void inject(MainActivity activity);
+	
+	    void inject(SearchActivity activity);
+
+	    FragmentComponent plus(FragmentModule module);
+	
+	}
