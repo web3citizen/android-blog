@@ -34,6 +34,8 @@
 
 #三方库
 
+[dagger2：组件依赖和子组件的区别](https://github.com/thinkSky1206/android-blog/blob/master/dagger2%EF%BC%9A%E7%BB%84%E4%BB%B6%E4%BE%9D%E8%B5%96%E5%92%8C%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+
 [更新到Retrofit2的一些技巧](https://github.com/thinkSky1206/android-blog/blob/master/%E6%9B%B4%E6%96%B0%E5%88%B0Retrofit2%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7.md)
 
 [每个android开发者都应该知道的Top 5三方库(2015版)](https://github.com/thinkSky1206/android-blog/blob/master/%E6%AF%8F%E4%B8%AAandroid%E5%BC%80%E5%8F%91%E8%80%85%E9%83%BD%E5%BA%94%E8%AF%A5%E7%9F%A5%E9%81%93%E7%9A%84Top%205%E4%B8%89%E6%96%B9%E5%BA%93(2015%E7%89%88).md)
