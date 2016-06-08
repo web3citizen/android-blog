@@ -1,6 +1,6 @@
 >原文：[Component Dependency vs Submodules in Dagger 2](http://jellybeanssir.blogspot.my/2015/05/component-dependency-vs-submodules-in.html)
 
->译文的GitHub地址：[dagger2：组件依赖和子组件的区别](https://github.com/thinkSky1206/android-blog/blob/master/Android%20GridLayout.md)
+>译文的GitHub地址：[dagger2：组件依赖和子组件的区别](https://github.com/thinkSky1206/android-blog/blob/master/dagger2%EF%BC%9A%E7%BB%84%E4%BB%B6%E4%BE%9D%E8%B5%96%E5%92%8C%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 
 >译者注：发现很多人都忽略了这个重要的内容，没有完全翻译原文，只简单翻译了重点。有兴趣的可以查看原文
 
@@ -35,7 +35,7 @@
 
 和组件依赖最大的不同是当你接入父组件的时候，你可以访问它所有模块的所有对象而无需显示声明依赖父组件。
 
-让我们假设你的LoginFragment需要一个组件：LoginComponent,它包含了一个用于处理的Presenter.Presenter想要调用WebService的方法获取数据，所以它需要依赖DataComponent里面的WebService.
+让我们假设你的LoginFragment需要一个组件：LoginComponent,它包含了一个用于处理的Presenter。Presenter想要调用WebService的方法获取数据，所以它需要依赖DataComponent里面的WebService.
 
 这次你不用在LoginComponent中指定任何东西，但是在ApplicationComponent,你需要声明ApplicationComponent可以被LoginComponent继承如下：
 
