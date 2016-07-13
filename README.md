@@ -17,7 +17,7 @@
 
 #性能优化
 
-[android内存泄露]()
+[android内存泄露](https://github.com/thinkSky1206/android-blog/blob/master/android%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2.md)
 
 
 #重构，技巧
