@@ -1,13 +1,13 @@
->原文链接：[How to make your own File Templates in Android Studio](http://riggaroo.co.za/custom-file-templates-android-studio/)
 
->文章的GitHub地址：[android内存泄露](https://github.com/thinkSky1206/android-blog/blob/master/Android%20Studio%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E6%A8%A1%E6%9D%BF.md)
+>文章的GitHub地址：[android内存泄露](https://github.com/thinkSky1206/android-blog/blob/master/android%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2.md)
 
 >译者注：之前看到内存泄露标题的文章都是一扫而过，私以为要么华而不实，要么晦涩难懂，最近自己学习实践了一下，算是有所收获了吧。
 
+![memory leaks](https://github.com/thinkSky1206/android-blog/blob/master/images/memory_leaks.png)
 
 本文主要是总结一下自己项目实践过程中遇到的情况。
 
-如何发现和解决大家去阅读下面相关文章，基本都给出了答案了。
+如何发现和解决内存泄露，大家去阅读下面相关文章，基本都给出了答案了。
 
 
 - [Memory leaks in Android](https://medium.com/freenet-engineering/memory-leaks-in-android-identify-treat-and-avoid-d0b1233acc8#.43c1t9l8w)
