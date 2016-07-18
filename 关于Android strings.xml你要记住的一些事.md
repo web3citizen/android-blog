@@ -1,20 +1,20 @@
 >原文：[Android strings.xml — things to remember](https://medium.com/@dmytrodanylyk/android-strings-xml-things-to-remember-c155025bb8bb#.jjmb7gqpq)
 
->译文的GitHub地址：[dagger2：组件依赖和子组件的区别](https://github.com/thinkSky1206/android-blog/blob/master/dagger2%EF%BC%9A%E7%BB%84%E4%BB%B6%E4%BE%9D%E8%B5%96%E5%92%8C%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+>译文的GitHub地址：[关于Android strings.xml你要记住的一些事](https://github.com/thinkSky1206/android-blog/blob/master/%E5%85%B3%E4%BA%8EAndroid%20strings.xml%E4%BD%A0%E8%A6%81%E8%AE%B0%E4%BD%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md)
 
->译者注：都是一些很实用的技巧 ，尤其是对于多语言国际化开发，感同身受。
+>译者注：都是一些很实用的技巧 ，尤其是对于多语言国际化开发，感同身受 。
 
-这篇文章主要是关于android开发再平常不过的东西--strings.xml
+这篇文章是关于android开发再平常不过的东西--strings.xml
 
 #不要复用
 
->不要在多个页面复用字符
+>不要在多个页面复用字符串
 
-**1.**想象一下你在登录和注册页面都有一个loading加载窗，你打算让2个加载框使用同一个字符-R.string.loading.
+**1.**假设你在登录和注册页面都有一个loading加载框，你打算让2个加载框使用同一个字符-R.string.loading.
 
 ![res/values/strings.xml](https://github.com/thinkSky1206/android-blog/blob/master/images/reuse01.png)
 
-不久后你决定让其中一个加载窗换个字符，然后你不得不创建2个新的字符并修改你的java代码，如果你一开始就用了2个string,你就只需要修改一个strings.xml文件就可以了
+不久后你决定让其中一个加载框换个字符，然后你不得不创建2个新的字符串并修改你的java代码，如果你一开始就用了2个string,你就只需要修改一个strings.xml文件就可以了
 ![res/values/strings.xml](https://github.com/thinkSky1206/android-blog/blob/master/images/reuse02.png)
 
 **2.**你永远不知道你的app将来会支持哪种语言，在某个语言-你可能可以用同一个单词表达不同的内容(译者：done可以表达中文的确定，下一步等等)，但是在另外一个语言-你不得不用多个单词表达不同的内容。
