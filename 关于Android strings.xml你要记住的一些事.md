@@ -1,0 +1,47 @@
+>原文：[Android strings.xml — things to remember](https://medium.com/@dmytrodanylyk/android-strings-xml-things-to-remember-c155025bb8bb#.jjmb7gqpq)
+
+>译文的GitHub地址：[dagger2：组件依赖和子组件的区别](https://github.com/thinkSky1206/android-blog/blob/master/dagger2%EF%BC%9A%E7%BB%84%E4%BB%B6%E4%BE%9D%E8%B5%96%E5%92%8C%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+
+>译者注：都是一些很实用的技巧 ，尤其是对于多语言国际化开发，感同身受。
+
+这篇文章主要是关于android开发再平常不过的东西--strings.xml
+
+#不要复用
+
+>不要在多个页面复用字符
+
+**1.**想象一下你在登录和注册页面都有一个loading加载窗，你打算让2个加载框使用同一个字符-R.string.loading.
+
+![res/values/strings.xml](https://cdn-images-1.medium.com/max/800/1*JS87DDYrThImLteYAXtFhQ.png)
+
+不久后你决定让其中一个加载窗换个字符，然后你不得不创建2个新的字符并修改你的java代码，如果你一开始就用了2个string,你就只需要修改一个strings.xml文件就可以了
+![res/values/strings.xml](https://cdn-images-1.medium.com/max/800/1*JS87DDYrThImLteYAXtFhQ.png)
+
+**2.**你永远不知道你的app将来会支持哪种语言，在某个语言-你可能可以用同一个单词表达不同的内容(译者：done可以表达中文的确定，下一步等等)，但是在另外一个语言-你不得不用多个单词表达不同的内容。
+
+![res/values/strings.xml](https://cdn-images-1.medium.com/max/800/1*JS87DDYrThImLteYAXtFhQ.png)
+
+![res/values-UA/strings.xml](https://cdn-images-1.medium.com/max/800/1*JS87DDYrThImLteYAXtFhQ.png)
+
+可以看到英语版本的strings.xml用了同样的单词“YES”给R.string.download_file_yes 和 R.string.terms_of_use_yes
+
+但是乌克兰版本的strings.xml使用了2个不同单词-“Гаразд”给R.string.download_file_yes，“Так”给R.string.terms_of_use_yes。
+
+
+#分开
+>用前缀和注释让同一个页面的字符分开
+
+![]()
+
+**1.**给每个字符添加页面前缀用于帮助识别当前字符属于哪个界面
+
+**2.**清晰的strings.xml可以让维护变的简单，同时可以一个页面接一个页面翻译成其他语言
+
+#Format格式化
+>使用Resources#getString(int id, Object… formatArgs)格式化字符
+
+#Plurals
+>
+
+
+
