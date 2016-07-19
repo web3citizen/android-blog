@@ -23,9 +23,9 @@
 
 ![res/values-UA/strings.xml](https://github.com/thinkSky1206/android-blog/blob/master/images/reuse04.png)
 
-可以看到英语版本的strings.xml用了同样的单词“YES”给R.string.download_file_yes 和 R.string.terms_of_use_yes
+可以看到英语版本的strings.xml用了同样的单词 “YES”给R.string.download_file_yes 和 R.string.terms_of_use_yes
 
-但是乌克兰版本的strings.xml使用了2个不同单词-“Гаразд”给R.string.download_file_yes，“Так”给R.string.terms_of_use_yes。
+但是乌克兰版本的strings.xml使用了2个不同单词 “Гаразд”给R.string.download_file_yes，“Так”给R.string.terms_of_use_yes。
 
 
 #分开
