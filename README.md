@@ -23,6 +23,9 @@
 #重构，技巧
 >梦里寻它千百度，蓦然回首，它在灯火阑珊处，总有那么一些技巧让你相见恨晚！
 
+
+[关于Android strings.xml你要记住的一些事](https://github.com/thinkSky1206/android-blog/blob/master/%E5%85%B3%E4%BA%8EAndroid%20strings.xml%E4%BD%A0%E8%A6%81%E8%AE%B0%E4%BD%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BA%8B.md)
+
 [Android GridLayout](https://github.com/thinkSky1206/android-blog/blob/master/Android%20GridLayout.md)
 
 [一种成功的xml资源命名规范](https://github.com/thinkSky1206/android-blog/blob/master/%E4%B8%80%E7%A7%8D%E6%88%90%E5%8A%9F%E7%9A%84xml%E8%B5%84%E6%BA%90%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md)
