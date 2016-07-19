@@ -29,11 +29,11 @@
 
 
 #分开
->用前缀和注释让同一个页面的字符分开
+>用前缀和注释让不同页面的字符串分开
 
-![res/values-UA/strings.xml](https://github.com/thinkSky1206/android-blog/blob/master/images/sep01.png)
+![res/values/strings.xml](https://github.com/thinkSky1206/android-blog/blob/master/images/sep01.png)
 
-**1.**给每个字符添加页面前缀用于帮助识别当前字符属于哪个界面
+**1.**给每个字符添加页面前缀用于帮助识别当前字符串属于哪个界面
 
 **2.**清晰的strings.xml可以让维护变的简单，同时可以一个页面接一个页面翻译成其他语言
 
