@@ -1,0 +1,152 @@
+>Drawable Resource
+#Bitmap File
+
+#Nine-Path File
+
+#Layer List
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<layer-list xmlns:android="http://schemas.android....
+		<item
+			android:width="40dp"
+			android:height="40dp"
+			android:drawable="@drawable/ic_activation_01"
+			android:gravity="center" />
+		<item
+			android:width="30dp"
+			android:height="30dp"
+			android:drawable="@drawable/ic_activation_02"
+			android:gravity="center" />
+		<item
+			android:width="20dp"
+			android:height="20dp"
+			android:drawable="@drawable/ic_activation_03"
+			android:gravity="center" />
+	</layer-list>
+
+#State List
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<selector xmlns:android="http://schemas.android....
+		<item
+			android:drawable="@drawable/btn_ok_pressed"
+			android:state_enabled="true"
+			android:state_pressed="true" />
+		<item
+			android:drawable="@drawable/btn_ok_disable"
+			android:state_enabled="false" />
+		<item
+			android:drawable="@drawable/btn_ok_normal" />
+	</selector>
+
+#Level List
+
+	ImageView ivScore = (ImageView)findViewById(R.id.iv_asd);
+	int score = ...;
+	if(score == 0) {
+		ivScore.setImageResource(R.drawable.ic_score_bad);
+	} else if(score == 1) {
+		ivScore.setImageResource(R.drawable.ic_score_ok);
+	} else if(score == 2) {
+		ivScore.setImageResource(R.drawable.ic_score_good);
+	}
+
+
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<level-list xmlns:android="http://schemas.android...
+		<item
+			android:drawable="@drawable/ic_score_bad"
+			android:maxLevel="0" />
+		<item
+			android:drawable="@drawable/ic_score_ok"
+			android:maxLevel="1" />
+		<item
+			android:drawable="@drawable/ic_score_good"
+			android:maxLevel="2" />
+	</level-list>
+
+
+	ImageView ivScore = (ImageView)findViewById(R.id.iv_score);
+	int score = ...;
+	ivScore.setImageLevel(score);
+
+#Transition Drawable
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<transition xmlns:android="http://schemas.android.com/...
+		<item
+			android:drawable="@drawable/ic_score_very_bad" />
+		<item
+			android:drawable="@drawable/ic_score_very_good" />
+	</transition>
+
+	ImageView ivScore = (ImageView) findViewById(R.id.iv_score);
+	TransitionDrawable drawable =(TransitionDrawable) ivScore.getDrawable();
+	drawable.startTransition(1000);
+	drawable.reverseTransition(1000);
+
+
+	drawable.reverseTransition(1000);
+
+#Inset Drawable
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<inset xmlns:android="http://schemas.android.com/...
+		android:drawable="@drawable/bg_badge"
+		android:insetBottom="10dp"
+		android:insetLeft="10dp"
+		android:insetRight="10dp"
+		android:insetTop="10dp"/>
+
+#Clip Drawable
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<clip xmlns:android="http://schemas.android.com/...
+		android:clipOrientation="horizontal"
+		android:drawable="@drawable/ic_rate_very_good"
+		android:gravity="left" />
+
+		ImageView ivRate = (ImageView) findViewById(R.id.iv_rate);
+		ClipDrawable drawable = (ClipDrawable) ivRate.getDrawable();
+		...
+		drawable.setLevel(5000);
+
+#Scale Drawable
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<scale xmlns:android="http://schemas.android.com/...
+		android:drawable="@drawable/ic_code_mania"
+		android:scaleGravity="center"
+		android:scaleHeight="60%"
+		android:scaleWidth="60%" />
+
+#Shape Drawable
+  
+	<?xml version="1.0" encoding="utf-8"?>
+	<shape xmlns:android="http://schemas.android.com/...
+		<stroke
+			android:width="4dp"
+			android:color="#ffffff"
+			android:dashGap="10dp"
+			android:dashWidth="10dp" />
+		<solid
+			android:color="#237793" />
+		<corners
+			android:radius="10dp" />
+	</shape>
+
+
+#Drawable Mixing
+	
+	<?xml version="1.0" encoding="utf-8"?>
+	<clip xmlns:android="http://schemas.android.com/apk/res/android"
+		android:clipOrientation="horizontal"
+		android:gravity="left">
+		<shape>
+			<solid
+				android:color="#ffd200" />
+			<corners
+				android:radius="50dp" />
+		</shape>
+	</clip>
