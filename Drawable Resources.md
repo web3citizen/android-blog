@@ -120,7 +120,7 @@ No 下面才是优雅的方式
 		android:insetRight="10dp"
 		android:insetTop="10dp"/>
 
-![inset](https://github.com/thinkSky1206/android-blog/blob/master/images/drawable_insert.png)
+![inset](https://github.com/thinkSky1206/android-blog/blob/master/images/drawable_inset.png)
 
 #Clip Drawable
 >图片裁剪，可以实现很多很好玩的效果，裁剪范围0-10000，5000也就是裁剪一半
