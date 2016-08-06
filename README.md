@@ -2,6 +2,11 @@
 
 喜欢简书阅读体验的也可以去[**我的简书**](http://www.jianshu.com/users/ba6770f3f858/latest_articles)
 
+
+#知识点
+
+[Drawable Resources一览](https://github.com/thinkSky1206/android-blog/blob/master/Drawable%20Resources%E4%B8%80%E8%A7%88.md)
+
 #UI
 ####*CoordinatorLayout*
 
