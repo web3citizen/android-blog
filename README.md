@@ -1,4 +1,4 @@
-之前一直主要在简书发布文章，但是写的多了以后发现，想要那么一个目录页，可以让读者和自己根据知识点进行更好的进行阅读，还有一个原因把这里当做一个备份。后面文章会写同时发布在github和简书,喜欢就点一下star哦！
+之前一直主要在CSDN,简书发布文章(好多csdn文章搬不动  哭瞎)，但是写的多了以后发现，想要那么一个目录页，可以让读者和自己根据知识点进行更好的进行阅读，还有一个原因把这里当做一个备份。后面文章会同时发布在github和简书,喜欢就点一下star哦！
 
 喜欢简书阅读体验的也可以去[**我的简书**](http://www.jianshu.com/users/ba6770f3f858/latest_articles)
 
@@ -17,6 +17,8 @@
 ####*RecyclerView*
 
 ###*动画*
+
+[低版本实现共享元素动画](https://github.com/thinkSky1206/android-blog/blob/master/%E4%BD%8E%E7%89%88%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E5%85%83%E7%B4%A0%E5%8A%A8%E7%94%BB.md)
 
 [教你实现别人家的动画3(淘宝,简书动画效果)](https://github.com/thinkSky1206/android-blog/blob/master/%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E5%88%AB%E4%BA%BA%E5%AE%B6%E7%9A%84%E5%8A%A8%E7%94%BB3(%E6%B7%98%E5%AE%9D%2C%E7%AE%80%E4%B9%A6%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C).md)
 
