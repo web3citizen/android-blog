@@ -18,6 +18,8 @@
 
 ###*动画*
 
+[低版本实现共享元素动画（二）：格瓦拉动画](https://github.com/thinkSky1206/android-blog/blob/master/%E4%BD%8E%E7%89%88%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E5%85%83%E7%B4%A0%E5%8A%A8%E7%94%BB%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E6%A0%BC%E7%93%A6%E6%8B%89%E5%8A%A8%E7%94%BB.md)
+
 [低版本实现共享元素动画](https://github.com/thinkSky1206/android-blog/blob/master/%E4%BD%8E%E7%89%88%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E5%85%83%E7%B4%A0%E5%8A%A8%E7%94%BB.md)
 
 [教你实现别人家的动画3(淘宝,简书动画效果)](https://github.com/thinkSky1206/android-blog/blob/master/%E6%95%99%E4%BD%A0%E5%AE%9E%E7%8E%B0%E5%88%AB%E4%BA%BA%E5%AE%B6%E7%9A%84%E5%8A%A8%E7%94%BB3(%E6%B7%98%E5%AE%9D%2C%E7%AE%80%E4%B9%A6%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C).md)
