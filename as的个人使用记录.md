@@ -52,11 +52,25 @@ logcat->设置
 
 #快捷键
 
+搜索所有命令快捷键：ctrl+shift+a
+
 预览字符串文本：ctrl+ -
+
+格式化：ctrl+alt+L
+
+文件导航：ctrl+tab  ctrl+shift+tab 
+
+
+
+生成sett/gett ：alt+insert
+
+选择下一个和当前选中内容一样的 ：alt+j
+
+
 
 重构命名：shift+F6
 
-格式化：ctrl+alt+L
+新行： shift+enter
 
 
 
