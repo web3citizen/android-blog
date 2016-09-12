@@ -83,5 +83,6 @@
 
 #工具
 
+[阴影背景生成器](http://inloop.github.io/shadow4android/)
 
 
