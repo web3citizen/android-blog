@@ -51,6 +51,10 @@
 
 #三方库
 
+
+[使用retrofit+okhttp实现无缝网络状态监测](https://github.com/thinkSky1206/android-blog/blob/master/Android%20Studio%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E6%A8%A1%E6%9D%BF.md)
+
+
 [dagger2：组件依赖和子组件的区别](https://github.com/thinkSky1206/android-blog/blob/master/dagger2%EF%BC%9A%E7%BB%84%E4%BB%B6%E4%BE%9D%E8%B5%96%E5%92%8C%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 
 [更新到Retrofit2的一些技巧](https://github.com/thinkSky1206/android-blog/blob/master/%E6%9B%B4%E6%96%B0%E5%88%B0Retrofit2%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7.md)
