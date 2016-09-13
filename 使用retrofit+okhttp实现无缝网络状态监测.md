@@ -1,8 +1,9 @@
 >原文：[SEAMLESS NETWORK STATE MONITORING WITH RETROFIT + OKHTTP](http://blog.stablekernel.com/seamless-network-state-monitoring-with-retrofit-okhttp?utm_campaign=stable%7Ckernel+Developer+Blog+&utm_source=hs_email&utm_medium=email&utm_content=34158359&_hsenc=p2ANqtz-93ZBGz1S-0ajswYTtZ7-00zxDWnSw-juNh8FebmXWTnvf4CxLxAM4AuQpjSN7b47_8Glc4F4JxY1Q6C0J0Xb_n0mff-g&_hsmi=34158359)
 
->译文的GitHub地址：[使用retrofit+okhttp实现无缝网络状态监测](https://github.com/thinkSky1206/android-blog/blob/master/Android%20Studio%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E6%A8%A1%E6%9D%BF.md)
+>译文的GitHub地址：[使用retrofit+okhttp实现无缝网络状态监测](https://github.com/thinkSky1206/android-blog/blob/master/%E4%BD%BF%E7%94%A8retrofit%2Bokhttp%E5%AE%9E%E7%8E%B0%E6%97%A0%E7%BC%9D%E7%BD%91%E7%BB%9C%E7%8A%B6%E6%80%81%E7%9B%91%E6%B5%8B.md)
 
 >译者注：我得去补补Application Interceptor和Network Interceptor 
+
 
 在依赖web服务的android app中，我们通常要在发送web请求前检查网络的状态。这样我们就可以弹出提示告诉用户问题而不是等待网络请求超时。网络状态通常需要调用ConnectivityManager。然而每个请求都要这样做有点繁琐，现在最流行的网络请求解决方案是使用Retrofit。当使用Retrofit时处理异步结果最简单的方式是用RxJava Observables。如果你正在使用Retrofit和RxJava 那么就有一种简单的方式来实现监测网络连接状态。让我们来看看吧！
 
