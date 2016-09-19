@@ -16,6 +16,8 @@
 
 ####*RecyclerView*
 
+[RecyclerView之ItemDecoration由浅入深](https://github.com/thinkSky1206/android-blog/blob/master/RecyclerView%E4%B9%8BItemDecoration%E7%94%B1%E6%B5%85%E5%85%A5%E6%B7%B1.md)
+
 ###*动画*
 
 [低版本实现共享元素动画（二）：格瓦拉动画](https://github.com/thinkSky1206/android-blog/blob/master/%E4%BD%8E%E7%89%88%E6%9C%AC%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E5%85%83%E7%B4%A0%E5%8A%A8%E7%94%BB%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E6%A0%BC%E7%93%A6%E6%8B%89%E5%8A%A8%E7%94%BB.md)
