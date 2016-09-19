@@ -1,6 +1,6 @@
 
 
->译文的GitHub地址：[RecyclerView之ItemDecoration由浅入深](https://github.com/thinkSky1206/android-blog/blob/master/RecycleView%E4%B9%8BItemDecoration%E7%94%B1%E6%B5%85%E5%85%A5%E6%B7%B1.md)
+>译文的GitHub地址：[RecyclerView之ItemDecoration由浅入深](https://github.com/thinkSky1206/android-blog/blob/master/RecyclerView%E4%B9%8BItemDecoration%E7%94%B1%E6%B5%85%E5%85%A5%E6%B7%B1.md)
 
 >译者注：RecyclerView第一篇，希望后面坚持下来 
 
