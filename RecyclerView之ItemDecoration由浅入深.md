@@ -1,13 +1,13 @@
 
 
->译文的GitHub地址：[使用retrofit+okhttp实现无缝网络状态监测](https://github.com/thinkSky1206/android-blog/blob/master/Android%20Studio%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E6%A8%A1%E6%9D%BF.md)
+>译文的GitHub地址：[RecyclerView之ItemDecoration由浅入深](https://github.com/thinkSky1206/android-blog/blob/master/RecycleView%E4%B9%8BItemDecoration%E7%94%B1%E6%B5%85%E5%85%A5%E6%B7%B1.md)
 
->译者注：我得去补补Application Interceptor和Network Interceptor 
+>译者注：RecyclerView第一篇，希望后面坚持下来 
 
 RecyclerView没有像之前ListView提供divider属性，而是提供了方法
 
 	recyclerView.addItemDecoration()
-其中ItemDecoration需要我们自己去定制实现，一开始可能有人会觉得麻烦不好用，最后你会发现这种可插拔设计不仅好用，而且功能强大。
+其中ItemDecoration需要我们自己去定制重写，一开始可能有人会觉得麻烦不好用，最后你会发现这种可插拔设计不仅好用，而且功能强大。
 
 
 ItemDecoration类主要是三个方法：
@@ -33,7 +33,7 @@ ItemDecoration类主要是三个方法：
 
 下面是我们没有添加任何ItemDecoration的界面
 
-![ItemDecoration_2.png](http://upload-images.jianshu.io/upload_images/186157-e8eafc2e1dd17110.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![activity](http://upload-images.jianshu.io/upload_images/186157-e8eafc2e1dd17110.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 主页布局界面很简单，背景设成灰色
 
